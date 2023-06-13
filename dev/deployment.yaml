@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: k8s-registry.eccd.local/proj-swdp-cdd-drop/executor/jenkins/eric-cdd-jenkin
+        image: suryachandra/surya2
         ports:
         - containerPort: 8080
